@@ -77,7 +77,7 @@ The Tableau dashboard includes:
 
 Dashboard Screenshot:
 
-(Add image here after uploading to GitHub)
+<img src="07 images/Pharmacy Medication Adherence Dashboard.png" width="100%" alt="Pharmacy Dashboard">
 
 Tableau Public Dashboard:
 
