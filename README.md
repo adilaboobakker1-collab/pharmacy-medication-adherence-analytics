@@ -16,6 +16,14 @@ Medication non-adherence can lead to poorer patient outcomes and increased healt
 * SQL
 * CSV datasets
 
+## Dataset
+
+This project uses a synthetic dataset created for educational and portfolio purposes. The dataset was designed to simulate a pharmacy medication adherence environment and includes patient demographics, medication information, prescription records, and refill activity.
+
+The data does not represent real patients and contains no personal health information. Synthetic data was used because real prescription refill data is generally restricted due to privacy and regulatory considerations.
+
+The objective of the project is to demonstrate database design, SQL analysis, KPI development, and dashboard creation within a realistic healthcare analytics scenario.
+
 ## Database Schema
 
 The project uses a relational database consisting of four tables:
@@ -89,6 +97,13 @@ https://public.tableau.com/views/PharmacyMedicationAdherenceAnalyticsDashboard/P
 2. Develop targeted interventions for respiratory medication users.
 3. Monitor high-risk patients through adherence reporting and follow-up programs.
 4. Expand adherence monitoring to identify trends over time.
+
+## Project Limitations
+
+* The dataset is synthetic and was created for learning purposes.
+* The project contains a limited number of records and was designed as a prototype analytics workflow.
+* Only a single refill cycle was analyzed for each prescription.
+* Future versions could incorporate larger datasets, multiple refill periods, and additional patient adherence metrics.
 
 ## Future Improvements
 
