@@ -1,12 +1,16 @@
+====================================
 -- KPI: Overall average refill delay
-
+====================================
+    
 SELECT
     ROUND(AVG(actual_refill_date - expected_refill_date), 2)
     AS avg_days_late
 FROM refills;
 
+=====================================
 -- KPI: Percentage of delayed refills
-
+=====================================
+    
 SELECT
 ROUND(
     100.0 *
@@ -18,8 +22,10 @@ ROUND(
 2) AS late_refill_percentage
 FROM refills;
 
+===========================================
 -- KPI: Patient adherence risk segmentation
-
+===========================================
+    
 SELECT
 CASE
     WHEN (actual_refill_date - expected_refill_date) >= 7
